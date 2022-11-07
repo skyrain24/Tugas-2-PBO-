@@ -2,7 +2,7 @@ package Tugas2;
 
 public class Asdos extends Mahasiswa{  //Polimorfisme
     public Asdos(String nama, int Sks, int jamNgasdos){
-        super(nama,Sks);
+        super(nama,Sks); //Downcasting (mengambil properti dari kelas induk kelas mahasiswa)
         jamSibuk = jamSibuk + jamNgasdos;
     }
     
